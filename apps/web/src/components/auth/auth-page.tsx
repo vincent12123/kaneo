@@ -37,9 +37,9 @@ export function AuthPage({
           >
             <div className="flex flex-col gap-5 pb-8">
               <img
-                src="/favicon.svg"
+                src="/logo-smk.png"
                 alt=""
-                className="size-10 shrink-0 rounded-lg border border-border"
+                className="size-12 shrink-0 object-contain"
               />
               <div className="flex flex-col gap-1.5">
                 <h1 className="font-semibold text-[22px] text-foreground leading-7 tracking-[-0.02em]">

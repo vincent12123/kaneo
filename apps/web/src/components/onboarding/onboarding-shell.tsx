@@ -43,11 +43,7 @@ export function OnboardingShell({
     >
       <div className="flex h-full w-full shrink-0 flex-col overflow-y-auto px-6 py-8 sm:px-16 lg:w-[600px]">
         <header className="flex items-center justify-between gap-4">
-          <img
-            src="/favicon.svg"
-            alt=""
-            className="size-8 rounded-lg border border-border"
-          />
+          <img src="/logo-smk.png" alt="" className="size-10 object-contain" />
           {progress ? (
             <OnboardingProgress
               current={progress.current}
